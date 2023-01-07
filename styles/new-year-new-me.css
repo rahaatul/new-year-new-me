@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.text-primary {
+    color: #FFFFFF;  
+}
+.btn-primary {
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 21px 25px;
+    height: 64px;
+    position: absolute;
+    border-radius: 5px;
+    background: #FFFFFF;
+
+}
+/*Header style*/
+.header {
+    border-radius: 0;
+    background-image: url('../images/banner/banner3.png'), url('../images/gradient3.png');
+    background-repeat: no-repeat;
+    background-position: bottom right left;
+    display: flex;
+
+}
+
+/* Banner styles*/
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+   
+
+}
+
+.banner-description {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 26px;
+}
+/*Nevigation style*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 578px 1200px;
+}
